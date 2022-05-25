@@ -1,0 +1,525 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;200;300;400;500;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400;700;800&display=swap");
+header .navbar-toggler {
+  border: none;
+  outline: none;
+  border-color: transparent !important;
+  color: transparent !important;
+}
+header .navbar-toggler-icon {
+  -webkit-filter: invert(12%) sepia(87%) saturate(2311%) hue-rotate(204deg) brightness(102%) contrast(97%);
+          filter: invert(12%) sepia(87%) saturate(2311%) hue-rotate(204deg) brightness(102%) contrast(97%);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+header .arima {
+  font-family: Arima Madurai;
+}
+header .border-outline {
+  border: none;
+  outline: none;
+}
+header .adjust {
+  width: 48px;
+  height: 48px;
+}
+header .fs-25 {
+  font-size: 25px;
+}
+header .fs-20 {
+  font-size: 20px;
+}
+header .fs-18 {
+  font-size: 18px;
+}
+header .three {
+  top: 33%;
+  right: 161px;
+  color: #3290D5;
+}
+header .offcanvas {
+  background: #043675;
+}
+header .menu:hover {
+  background-color: #3290D5;
+}
+header .tab-layout {
+  background: #043675 0% 0% no-repeat padding-box;
+}
+header .tab-layout .tab {
+  background: #043675 0% 0% no-repeat padding-box;
+}
+header .tab-layout .arima {
+  font-family: Arima Madurai;
+}
+header .tab-layout .fs-20 {
+  font-size: 20px;
+}
+header .tab-layout .fs-18 {
+  font-size: 18px;
+}
+header .tab-layout .fs-25 {
+  font-size: 25px;
+}
+header .tab-layout button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+header .tab-layout .list-design {
+  color: #3290D5;
+}
+header .tab-layout .list-design:hover {
+  background: #043675 0% 0% no-repeat padding-box;
+}
+header .tab-layout .dropdown {
+  display: inline-block;
+  position: relative;
+}
+header .tab-layout .dropdown-content {
+  display: none;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  position: absolute;
+  width: 300px;
+}
+header .tab-layout .dropdown:hover .dropdown-content {
+  display: block;
+}
+header .tab-layout .tab-color {
+  color: #3290D5;
+}
+header .tab-layout .menu:hover {
+  background-color: #3290D5;
+}
+
+.brand-new .full_bg {
+  background: url(../img/wild-herd-run.jpg) no-repeat padding-box;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.brand-new .arima {
+  font-family: Arima Madurai;
+}
+.brand-new .all_button {
+  font-family: "arima";
+  border: none;
+  outline: none;
+  -webkit-box-shadow: 0px 5px 10px #0000004D;
+          box-shadow: 0px 5px 10px #0000004D;
+  border-radius: 5px;
+  opacity: 1;
+  color: white;
+  background-color: #2C7800;
+}
+.brand-new .fs-20 {
+  font-size: 20px;
+}
+.brand-new .fs-18 {
+  font-size: 18px;
+}
+.brand-new .fs-25 {
+  font-size: 25px;
+}
+.brand-new .fs-90 {
+  font-size: 90px;
+}
+.brand-new .fs-48 {
+  font-size: 40px;
+}
+.brand-new button.shop {
+  background: #2C7800 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 5px 10px #0000004D;
+          box-shadow: 0px 5px 10px #0000004D;
+  border-radius: 5px;
+  opacity: 1;
+}
+.brand-new .border-outline {
+  border: none;
+  outline: none;
+}
+.brand-new .bg-dv {
+  background-color: #043675;
+}
+.brand-new .bg-services {
+  background-color: #3290D5;
+}
+
+.seller .arima {
+  font-family: Arima Madurai;
+}
+.seller .fs-20 {
+  font-size: 20px;
+}
+.seller .fs-18 {
+  font-size: 18px;
+}
+.seller .fs-25 {
+  font-size: 25px;
+}
+.seller .fs-40 {
+  font-size: 40px;
+}
+.seller .dark-blue {
+  color: #043675;
+}
+.seller .shop {
+  background: #2C7800 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 5px 10px #0000004D;
+          box-shadow: 0px 5px 10px #0000004D;
+  border-radius: 5px;
+  opacity: 1;
+}
+.seller .border-outline {
+  border: none;
+  outline: none;
+}
+.seller .card-body {
+  background: #F8F8F8 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 0px 30px #0000001A;
+          box-shadow: 0px 0px 30px #0000001A;
+}
+.seller .horse_adjust {
+  width: 285px;
+  height: 284px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.seller .heart:hover {
+  -webkit-filter: invert(14%) sepia(33%) saturate(4773%) hue-rotate(200deg) brightness(100%) contrast(97%);
+          filter: invert(14%) sepia(33%) saturate(4773%) hue-rotate(200deg) brightness(100%) contrast(97%);
+}
+.seller .all_button {
+  font-family: "arima";
+  border: none;
+  outline: none;
+  -webkit-box-shadow: 0px 5px 10px #0000004D;
+          box-shadow: 0px 5px 10px #0000004D;
+  border-radius: 5px;
+  opacity: 1;
+  color: white;
+  background-color: #2C7800;
+}
+
+.summer .summer-bg {
+  background-color: #043675;
+}
+.summer .arima {
+  font-family: Arima Madurai;
+}
+.summer .fs-20 {
+  font-size: 20px;
+}
+.summer .shop {
+  background: #2C7800 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 5px 10px #0000004D;
+          box-shadow: 0px 5px 10px #0000004D;
+  border-radius: 5px;
+  opacity: 1;
+}
+.summer .border-outline {
+  border: none;
+  outline: none;
+}
+.summer .fs-40 {
+  font-size: 40px;
+}
+.summer .dark-blue {
+  color: #043675;
+}
+.summer .fs-30 {
+  font-size: 30px;
+}
+.summer .shop {
+  background: #2C7800 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 5px 10px #0000004D;
+          box-shadow: 0px 5px 10px #0000004D;
+  border-radius: 5px;
+  opacity: 1;
+  background-color: #3290D5;
+}
+.summer .sans {
+  font-family: "Sans";
+}
+.summer .all_button {
+  font-family: "arima";
+  border: none;
+  outline: none;
+  -webkit-box-shadow: 0px 5px 10px #0000004D;
+          box-shadow: 0px 5px 10px #0000004D;
+  border-radius: 5px;
+  opacity: 1;
+  color: white;
+  background-color: #3290D5;
+}
+
+.quality .sans {
+  font-family: "Sans";
+}
+.quality .shop {
+  background: #2C7800 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 5px 10px #0000004D;
+          box-shadow: 0px 5px 10px #0000004D;
+  border-radius: 5px;
+  opacity: 1;
+  background-color: #043675;
+}
+.quality .border-outline {
+  border: none;
+  outline: none;
+}
+.quality .fs-40 {
+  font-size: 40px;
+}
+.quality .dark-blue {
+  color: #043675;
+}
+.quality .arima {
+  font-family: Arima Madurai;
+}
+.quality .all_button {
+  font-family: "arima";
+  border: none;
+  outline: none;
+  -webkit-box-shadow: 0px 5px 10px #0000004D;
+          box-shadow: 0px 5px 10px #0000004D;
+  border-radius: 5px;
+  opacity: 1;
+  color: white;
+  background-color: #043675;
+}
+.quality .all_button1 {
+  font-family: "arima";
+  border: none;
+  outline: none;
+  -webkit-box-shadow: 0px 5px 10px #0000004D;
+          box-shadow: 0px 5px 10px #0000004D;
+  border-radius: 5px;
+  opacity: 1;
+  color: white;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.quality .dark-blue {
+  color: #043675;
+}
+.quality .fs-18 {
+  font-size: 18px;
+}
+.quality .vision {
+  opacity: 23%;
+}
+.quality .arima {
+  font-family: Arima Madurai;
+}
+
+.category {
+  background: #F8F8F8 0% 0% no-repeat padding-box;
+}
+.category .fs-40 {
+  font-size: 40px;
+}
+.category .dark-blue {
+  color: #043675;
+}
+.category .arima {
+  font-family: Arima Madurai;
+}
+.category img {
+  width: 348px;
+  height: 242px;
+}
+.category .fs-30 {
+  font-size: 30px;
+}
+.category .horse-text {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.online .fs-40 {
+  font-size: 40px;
+}
+.online .arima {
+  font-family: Arima Madurai;
+}
+.online .fs-30 {
+  font-size: 30px;
+}
+.online .fs-18 {
+  font-size: 18px;
+}
+.online .online-mob {
+  cursor: pointer;
+}
+.online .all_button {
+  font-family: "arima";
+  border: none;
+  outline: none;
+  -webkit-box-shadow: 0px 5px 10px #0000004D;
+          box-shadow: 0px 5px 10px #0000004D;
+  border-radius: 5px;
+  opacity: 1;
+  color: white;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.online .dark-blue {
+  color: #043675;
+}
+.online .sams {
+  font-family: sans-serif;
+}
+.online .vision {
+  opacity: 23%;
+}
+
+.access {
+  overflow: hidden;
+}
+.access .fs-40 {
+  font-size: 40px;
+}
+.access .arima {
+  font-family: Arima Madurai;
+}
+.access .sans {
+  font-family: "Sans";
+}
+.access .fs-20 {
+  font-size: 20px;
+}
+.access .fs-18 {
+  font-size: 18px;
+}
+.access .horse {
+  background-image: url(../img/img9-r.jpg);
+  background-size: cover;
+}
+.access .blue_bg {
+  background-color: #043675;
+  background-image: -webkit-linear-gradient(-29deg, #043675 90%, white 10%);
+}
+
+.quetions {
+  background: #F8F8F8 0% 0% no-repeat padding-box;
+}
+.quetions .fs-20 {
+  font-size: 20px;
+}
+.quetions .fs-18 {
+  font-size: 18px;
+}
+.quetions .fs-40 {
+  font-size: 40px;
+}
+.quetions .arima {
+  font-family: Arima Madurai;
+}
+.quetions .dark-blue {
+  color: #043675;
+}
+.quetions .bg-dark_blue {
+  background-color: #043675;
+}
+.quetions .border-outline {
+  border: none;
+  outline: none;
+}
+.quetions .accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E");
+}
+.quetions .dummy-text {
+  font-size: 12px !important;
+}
+
+.measure {
+  background-color: #043675;
+}
+.measure .all_button {
+  font-family: "arima";
+  border: none;
+  outline: none;
+  -webkit-box-shadow: 0px 5px 10px #0000004D;
+          box-shadow: 0px 5px 10px #0000004D;
+  border-radius: 5px;
+  opacity: 1;
+  color: white;
+  background-color: #3290D5;
+}
+.measure .arima {
+  font-family: Arima Madurai;
+}
+.measure .fs-30 {
+  font-size: 30px;
+}
+.measure .fs-48 {
+  font-size: 48px;
+}
+.measure .fs-25 {
+  font-size: 25px;
+}
+.measure .sans {
+  font-family: sans-serif;
+}
+
+.review .arima {
+  font-family: Arima Madurai;
+}
+.review .fs-40 {
+  font-size: 40px;
+}
+.review .dark-blue {
+  color: #043675;
+}
+.review .fs-20 {
+  font-size: 20px;
+}
+.review .fs-15 {
+  font-size: 15px;
+}
+.review .card {
+  background: #F8F8F8 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  border: none;
+  outline: none;
+}
+
+footer {
+  background-color: #043675;
+}
+footer .arima {
+  font-family: Arima Madurai;
+}
+footer .fs-20 {
+  font-size: 20px;
+}
+footer .dark-blue {
+  color: #043675;
+}
+footer .fs-25 {
+  font-size: 25px;
+}
+footer .fs-14 {
+  font-size: 14px;
+}
+footer .border-outline {
+  border: none;
+  outline: none;
+}
+footer .fb {
+  color: #3290D5;
+}
+footer button.angle {
+  width: 40px;
+}
+footer .caret-up {
+  display: inline-block;
+  border-radius: 50%;
+  width: 72px;
+  border: 6px solid #3290D5;
+  height: 72px;
+  text-align: center;
+  padding: 9px;
+}

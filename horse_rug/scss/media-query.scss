@@ -1,0 +1,300 @@
+@import "mixin";
+@import "variable";
+@media only screen and ( min-width: $medium){
+    header{
+        nav{
+            .mob-adjust{
+                display: none !important;
+            }
+            .search_adjust{
+                display: none !important;
+            }
+        }
+    } 
+    //-----------------------------------------quality-----------------------------
+    .quality{
+        .quality-hide{
+            display: none;
+        }
+        .vision{
+            opacity: 100%;
+        }
+        .quality-mob-2{
+            display: none;
+        }
+        #dots{
+            display: none;
+        }
+    }
+     //--------------------------------------------------------------online--------------------------------------------------------
+     .rugs-img{
+         display: none;
+     }
+     .online-mob{
+         display: none;
+     }
+     .vision{
+        opacity: 100% !important;
+    }
+    //-----------------------------------------------------------------footer-----------------------------------------------
+
+}
+@media only screen and ( max-width: $medium){
+
+//------------------------------------------header------------------------
+    header{
+        .fs-18{font-size: 12px !important;}
+        nav{
+            .mob-adjust2{
+                display: none !important;
+            }
+            .horse-adjust{
+                width: 25% !important;
+          }
+          
+        .search-mob{
+            width: 18% !important;
+            padding: 0 !important;
+            margin: 0 0px!important;
+        }
+        .adjust_profile{
+            width: 25% !important;
+        }
+        .adjust{
+            width: 11px;
+            height: 11px;
+            margin: 0 3px !important;
+        }
+        }
+        .three{
+            display: none;
+        }
+        .tab-layout{
+            display: none;
+        }
+    }
+//---------------------------------------------------------banner-----------------------------------------------------------
+ .brand-new{
+     .banner-adjust{
+         padding-left: 2px !important;
+         text-align: center;
+     }
+     .banner-mob{
+         padding: 2px ;
+         margin: 27px;
+     }
+     .service-mob{
+           display: block !important;
+           text-align: center !important;
+           padding: 13px;
+    }
+    .brand-text{
+        display: inline-block !important;
+        font-size: 45px !important;
+        line-height: 50px !important;
+        padding: 0 !important;
+        margin: 0!important;
+        letter-spacing: 0!important;
+    }
+    .range-text{
+        font-size: 24px !important;
+        line-height: 25px !important;
+    }
+    .get-text{
+        font-size: 14px !important;
+    }
+    .shop-text{
+        font-size: 18px !important;
+    }
+    .service-adjust{
+        margin: 0!important;
+        font-size: 15px !important;
+    }
+    .service-text{
+        font-size: 15px !important;
+    }
+ }
+ //------------------------------------------------------best seller-------------------------------------------
+ .seller{
+    .horse_adjust{
+        width: 255px;
+        height: 256px;
+        object-fit: contain;
+    }
+    button.prev_arrow_seller{
+        top: 50%;
+        left: 5%;
+    }
+    button.next_arrow_seller{
+        top: 50%;
+      right: 5%;
+    }
+ }
+ //------------------------------------------------------summer------------------------------------------
+ .summer{
+     text-align: center;
+     .end-text{
+         font-size: 30px !important;
+         margin-bottom: 10px !important;
+         margin-top: 0 !important;
+     }
+     .shop{
+        padding: 10px !important;
+     }
+     .heavy-text{
+         font-size: 20px !important;
+
+     }
+     .miss-text{
+         font-size: 15px !important;
+
+     }
+     .summary{
+         order: 2;
+         margin-top: 25px;
+     }
+     .summary2{
+         order: 1;
+         padding: 20px;
+     }
+ }
+ //----------------------------------------------------------quality-------------------------------------------------
+ .quality{
+     .high-text{
+         font-size: 30px;
+         line-height: 1;
+     }
+     .lorem-text{
+         font-size: 12px;
+         margin-top: 20px;
+     }
+     .shop{
+         text-align: center !important;
+        padding: 10px !important;
+     }
+     .quality-mob{
+         font-size: 15px;
+         text-align: center;
+     }
+     #summary{
+         order: 1;
+     }
+     #summary2{
+         order: 2;
+     }
+     .high-hide{display: none;}
+
+ }
+ //-------------------------------------------------------category-------------------------------------------------
+ .category{
+     .category-text{
+         font-size: 30px !important;
+         line-height: 24px ;
+     }
+     .lorem-text{
+        font-size: 12px;
+    }
+    .category-img{
+        margin: 0!important;
+    }
+    .horse-text{
+        font-size: 16px !important;
+        text-align: center;
+    }
+    img{
+        width: 137px;
+        height: 106px;
+    }
+ }
+ //--------------------------------------------------------------online--------------------------------------------------------
+ .online{
+     .horse-title{
+         font-size: 30px;
+         line-height: 30px;
+         text-align: center;
+     }
+     .lorem-text{
+        font-size: 12px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .rugs-title{
+        display: none;
+    }
+ }
+ //-------------------------------------------------------access-----------------------------
+ .access{
+     .dont{
+         font-size: 30px !important;
+         line-height: 30px !important;
+         text-align: center;
+     }
+ }
+ //----------------------------------------------questions--------------------------------------------
+ .quetions{
+     .quetions-title{
+         font-size: 30px !important;
+         line-height: 30px !important;
+         text-align: center;
+     }
+ }
+//-----------------------------------------------------------------measure-----------------------------------------
+    .measure{
+        .measure1{
+            order: 2;
+        }
+        .measure2{
+            order: 1;
+        }
+        .measure-title{
+            font-size: 20px !important;
+            line-height: 21px !important;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .measure-text{
+            font-size: 30px !important;
+            line-height: 30px;
+            text-align: center;
+        }
+        .measure-para{
+            font-size: 12px !important;
+            text-align: center;
+        }
+        .read-size{
+            font-size: 16px !important;
+            padding: 17px 21px 17px 21px !important;
+            text-align: center;
+        }
+    }
+//--------------------------------------------------------revire---------------------------------------
+    .review{
+        .review-text{
+            font-size: 30px !important;
+        }
+        button.prev_arrow_review{
+            top: 50%;
+            left: 5%;
+        }
+        button.next_arrow_review{
+            top: 50%;
+          right: 5%;
+        }
+
+    }
+//-----------------------------------------------------------footer-------------------------------------------------.
+    footer{
+        .mob-title{
+            font-size: 20px !important;
+        }
+        .mob-text{
+            font-size: 15px !important;
+        }
+        .mob-adjust {
+            display: none;
+        }
+        .email{
+            width: 75% !important;
+        }
+    }
+}

@@ -1,0 +1,494 @@
+@import "mixin";
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;200;300;400;500;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400;700;800&display=swap');
+
+//---------------------------------------------header-------------------------------------------
+header{
+    .navbar-toggler{
+        border: none;
+        outline: none;
+        border-color: transparent!important;
+        color: transparent !important;
+    }
+    .navbar-toggler-icon{
+        filter: invert(12%) sepia(87%) saturate(2311%) hue-rotate(204deg) brightness(102%) contrast(97%);
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .arima{
+         @include arima;
+    }
+
+    .border-outline{
+        @include border-outline;
+    }
+    .adjust{
+        width: 48px;
+        height: 48px;
+    }
+    .fs-25{
+        @include fs-25;
+    }
+    .fs-20{
+        @include fs-20;
+    }
+    .fs-18{
+       @include fs-18;
+   }
+   .three{
+       top: 33%;
+       right: 161px;
+       color: #3290D5;
+   }
+    .offcanvas{
+        background: #043675;
+    }      
+    .menu:hover{
+        background-color: #3290D5;
+  }
+  .tab-layout{ background: #043675 0% 0% no-repeat padding-box;
+    .tab{
+        background: #043675 0% 0% no-repeat padding-box;
+    }
+    .arima{
+        @include arima;
+     }
+     .fs-20{
+         @include fs-20;
+     }
+     .fs-18{
+        @include fs-18;
+    }
+    .fs-25{
+        @include fs-25;
+    }
+    button{
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+    .list-design{
+        color: #3290D5;
+    }
+    .list-design:hover{
+        background: #043675 0% 0% no-repeat padding-box;
+    }
+      .dropdown {
+        display: inline-block;
+        position: relative;
+      }
+      .dropdown-content {
+        display: none;
+        background: #FFFFFF 0% 0% no-repeat padding-box;;
+        position: absolute;
+        width: 300px;
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .tab-color{
+          color: #3290D5;;
+      }
+      .menu:hover{
+          background-color: #3290D5;
+    }
+}
+}
+//-----------------------------------------------banner--------------------------------------------------------------------
+.brand-new{
+    .full_bg{
+        background: url(../img/wild-herd-run.jpg) no-repeat padding-box;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+    }
+    .arima{
+        @include arima;
+     }
+     .all_button{
+         @include all_button;
+         background-color: #2C7800
+     }
+     .fs-20{
+         @include fs-20;
+     }
+     .fs-18{
+        @include fs-18;
+    }
+    .fs-25{
+        @include fs-25;
+    }
+    .fs-90{
+        font-size: 90px;
+    }
+    .fs-48{
+        font-size: 40px;
+    }
+    button.shop{
+           background: #2C7800 0% 0% no-repeat padding-box;
+           box-shadow: 0px 5px 10px #0000004D;
+           border-radius: 5px;
+            opacity: 1;
+    }
+    .border-outline{
+        @include border-outline;
+    }
+    .bg-dv{
+        background-color: #043675;
+        
+    }
+    .bg-services{
+        background-color: #3290D5;
+    }
+}
+    //-------------------------best seller-------------------------------------
+    .seller{
+        .arima{
+            @include arima;
+         }
+         .fs-20{
+             @include fs-20;
+         }
+         .fs-18{
+            @include fs-18;
+        }
+        .fs-25{
+            @include fs-25;
+        }
+        .fs-40{
+            @include fs-40;
+        }
+        .dark-blue{
+            @include dark-blue;
+        }
+        .shop{
+            @include shop;
+        }
+        .border-outline{
+            @include border-outline;
+        }
+        .card-body{
+            background: #F8F8F8 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 30px #0000001A;
+        }
+        .horse_adjust{
+            width: 285px;
+            height: 284px;
+            object-fit: contain;
+        }
+        .heart:hover{
+            filter: invert(14%) sepia(33%) saturate(4773%) hue-rotate(200deg) brightness(100%) contrast(97%);
+        }
+        .all_button{
+            @include all_button;
+            background-color: #2C7800;
+        }
+    }
+//-----------------------------------------------------summer--------------------------------------
+.summer{
+    .summer-bg{
+        background-color: #043675
+    }    
+    .arima{
+        @include arima;
+     }
+     .fs-20{
+         @include fs-20;
+     }
+     .shop{
+        @include shop;
+    }
+    .border-outline{
+        @include border-outline;
+    }
+    .fs-40{
+        @include fs-40;
+    }
+    .dark-blue{
+        @include dark-blue;
+    }
+    .fs-30{
+        @include fs-30
+    }
+    .shop{
+        @include shop;
+        background-color: #3290D5;
+        
+    }
+    .sans{
+        font-family: 'Sans'
+    }
+    .all_button{
+        @include all_button;
+        background-color: #3290D5;
+    }
+ 
+}
+//-------------------------------------------------------------------quality---------------------------------------
+.quality{
+    .sans{
+        font-family: 'Sans'
+    }
+    .shop{
+        @include shop;
+       background-color: #043675;
+    }
+    .border-outline{
+        @include border-outline;
+    }
+    .fs-40{
+        @include fs-40;
+    }
+    .dark-blue{
+        @include dark-blue;
+    }
+    .arima{
+        @include arima;
+     }
+     .all_button{
+        @include all_button;
+        background-color:#043675;
+    }  .all_button1{
+        @include all_button;
+       box-shadow: none;
+    }
+    .dark-blue{
+        @include dark-blue;
+    }
+    .fs-18{
+        @include fs-18;
+    }
+    .vision{
+        opacity: 23%;
+    }
+    .arima{
+        @include arima;
+    }
+}
+//--------------------------------------------------------category-----------------------------------------------------------
+.category{background: #F8F8F8 0% 0% no-repeat padding-box;
+    .fs-40{
+        @include fs-40;
+    }
+    .dark-blue{
+        @include dark-blue;
+    }
+    .arima{
+        @include arima;
+     }
+    img{
+        width: 348px;
+        height: 242px;
+    }
+    .fs-30{
+        @include fs-30
+    }
+    .horse-text{
+        transform: translateY(-50%);
+    }
+}
+//--------------------------------------------------------online------------------------------------------------------
+.online{
+    .fs-40{
+        @include fs-40;
+    }
+    .arima{
+        @include arima;
+     }
+     .fs-30{
+        @include fs-30;
+    }
+    .fs-18{
+        @include fs-18;
+    }
+    .online-mob{
+        cursor: pointer;
+    }
+    .all_button{
+        @include all_button;
+        box-shadow: none;
+    }
+    .dark-blue{
+        @include dark-blue
+    }
+    .sams{
+        font-family: sans-serif;
+    }
+    .vision{
+        opacity: 23%;
+    }
+}
+  //---------------------------------------------------------------access----------------------------------------------------
+.access{ overflow: hidden;
+    .fs-40{
+        @include fs-40;
+    }
+
+    .arima{
+        @include arima;
+     }
+     .sans{
+        font-family: 'Sans'
+    }
+    .fs-20{
+        @include fs-20;
+    }
+    .fs-18{
+        @include fs-18;
+    }
+    .horse{
+        background-image: url(../img/img9-r.jpg);
+        background-size: cover;
+        
+    }
+    .blue_bg{
+        background-color: #043675;
+        background-image: -webkit-linear-gradient(-29deg, #043675 90%, white 10%) ;
+    }
+    // .blue_bg{
+    //     background-color: #043675;
+    //     background-image: -webkit-linear-gradient(-30deg, #043675 57%, white 50%);
+    // }
+    // img{
+    //     width: 1920px;
+    //     height: 497px;
+    // }
+    // .box{
+    //     .blue_bg{
+    //         background-color: #043675;
+    //         // overflow: hidden;
+    //         // width: 999999px;
+    //     }
+    // }
+    // .container::before{
+    //     background-color:#043675;
+    //     content: "";
+    // }
+   
+        // .blue_bg{
+        //     height: 200px;
+        //     overflow: hidden;
+        //     width: 99999px;
+        //     background-color: #043675;
+        //     // background-image: -webkit-linear-gradient(-30deg, #043675 57%, white 50%);
+        // }
+        // .gh{
+        //     background-image: url(../img/img9-r.jpg);
+        //     background-repeat: no-repeat;
+        //     height: 200px;
+        // }
+      
+}
+//--------------------------------------------------------questions----------------------------------------
+.quetions{background: #F8F8F8 0% 0% no-repeat padding-box;
+    .fs-20{
+        @include fs-20;
+    }
+    .fs-18{
+        @include fs-18;
+    }
+    .fs-40{
+        @include fs-40;
+    }
+    .arima{
+        @include arima;
+     }
+     .dark-blue{
+        @include dark-blue;
+    }
+    .bg-dark_blue{
+        background-color: #043675;
+    }
+    .border-outline{
+        @include border-outline;
+    }
+    .accordion-button::after{
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E");
+    }
+    .dummy-text{
+        font-size: 12px !important;
+    }
+}
+//-----------------------------------------------------measure---------------------------------------------
+.measure{ background-color: #043675;
+    .all_button{
+        @include all_button;
+        background-color: #3290D5;
+    }
+    .arima{
+        @include arima;
+     }
+     .fs-30{
+        @include fs-30;
+    }
+    .fs-48{
+        font-size: 48px;
+    }
+    .fs-25{
+        @include fs-25;
+    }
+    .sans{
+        font-family: sans-serif;
+    }
+}
+//---------------------------------------------------review---------------------------------------------------------
+.review{
+    .arima{
+        @include arima;
+    }
+    .fs-40{
+        @include fs-40;
+    }
+    .dark-blue{
+        @include dark-blue;
+    }
+    .fs-20{
+        @include fs-20;
+    }
+    .fs-15{
+        font-size: 15px;
+    }
+    .card{
+        background: #F8F8F8 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border: none;
+        outline: none;
+    }
+}
+//------------------------------------------------footer-------------------------------------------------------
+footer{background-color: #043675;
+    .arima{
+        @include arima;
+    }
+    .fs-20{
+        @include fs-20;
+    }
+    .dark-blue{
+        @include dark-blue;
+    }
+    .fs-25{
+        @include fs-25;
+    }
+    .fs-14{
+        font-size: 14px;
+    }
+    .border-outline{
+        @include border-outline;
+    }
+    .fb{
+        color: #3290D5;
+    }
+   
+    button.angle {
+        width: 40px;
+    }
+    .caret-up{
+        display: inline-block;
+        border-radius: 50%;
+        width: 72px;
+        border: 6px solid #3290D5;
+        height: 72px;
+        text-align: center;
+        padding: 9px;
+    }
+}

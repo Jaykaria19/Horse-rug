@@ -1,0 +1,40 @@
+@mixin arima {
+    font-family: Arima Madurai;
+}
+@mixin fs-20{
+    font-size: 20px;
+}
+@mixin fs-18{
+    font-size: 18px;
+}
+@mixin fs-25{
+    font-size: 25px;
+}
+@mixin border-outline {
+    border: none;
+    outline: none;
+}
+@mixin fs-40 {
+    font-size: 40px;
+}
+@mixin dark-blue {
+    color: #043675;
+}
+@mixin shop {
+        background: #2C7800 0% 0% no-repeat padding-box;
+        box-shadow: 0px 5px 10px #0000004D;
+        border-radius: 5px;
+         opacity: 1;
+}
+@mixin fs-30 {
+    font-size: 30px;
+}
+@mixin all_button{
+    font-family: 'arima';
+    border: none;
+    outline: none;
+    box-shadow: 0px 5px 10px #0000004D;
+    border-radius: 5px;
+     opacity: 1;
+     color: white;
+}
